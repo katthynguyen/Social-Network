@@ -1,0 +1,18 @@
+.main .function
+{
+    width: 100%;
+    height: 35px;
+    background: #81b0db;
+    border-radius: 6px;
+}
+
+.main .function p
+{
+    text-align: left;
+    padding: 8px 0;
+}
+.main
+{
+    margin: 0 300px;
+}
+

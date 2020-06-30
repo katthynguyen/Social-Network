@@ -1,0 +1,486 @@
+/*Header.php*/
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background: #f2f3f5;
+    height: 40px;
+    padding: 10px;
+   }
+   
+  
+   .search-box:hover > .search-btn {
+    background: rgb(58, 19, 230);
+    color: rgb(247, 243, 243);
+   }
+   
+   .search-btn {
+    position: relative;
+    top:-10px;
+    right:-10px;
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: #146ce7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: rgb(229, 228, 238);
+    cursor: pointer;
+   }
+   
+   .search-btn > i {
+    font-size: 30px;
+   }
+   
+   .search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(14, 12, 12);
+    font-size: 16px;
+    transition: 0.4s;
+  
+    width: 450px;
+    font-weight: bold;
+   }
+   .login-register{
+       margin:auto;
+       text-align: center;
+       margin-top: 254px;
+   }
+
+   /*Newfeed.php*/
+   .container{
+    margin:auto;
+    margin-top: 78px;
+    position:relative;
+    width:900px;
+    height:2000px;
+    
+  }
+  .menu{
+    margin:auto;
+    position:fixed;
+    height:auto;
+    background-color:#f7efef;
+    width:20%;
+  }
+  .menu-ul-newfeed{
+    list-style-type:none;
+    padding:0;
+    margin:0px;
+    margin-top: 30px;
+    left:10px;
+  }
+  .menu-li-newfeed{
+    line-height:2.9em;
+    height:2.9em;
+  }
+  .menu-a-newfeed{
+    display:block;
+    text-decoration:none;
+    color:rgb(22, 27, 26);
+    font-size: 29px;
+    padding:0 21px;
+  }
+  .menu-li-newfeed:hover{
+    background-color:#e9d0d0;
+  }
+  .main-content{
+    width:68%;
+    height:auto;
+    background-color:rgb(240, 234, 239);
+    float:right;
+  }
+  /*status*/
+  .form-group-sta{
+    margin-top:10px;
+    height: 8%;
+  }
+  .label-stu{
+    margin:auto;
+    width:100%;
+    float:left;
+  }
+  .form-control-sta{
+    margin:auto;
+    margin-top:2px;
+    width:99%;
+    height:80px;
+    border-radius: 12px;
+    border:1px solid black;
+    float:left;
+  }
+  .btn-submit{
+    margin-top:5px;
+    float:right;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 23px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .imprev[type=file]{
+    padding:10px;
+    float: right;
+    background:#f0ebeb;
+}
+ .img-up{
+    position: relative;
+    left: 127px;
+    top: 2px;
+    max-width:60px;
+ }  
+ .card-pro-newfeed{
+    margin:30px;
+    width:500px;
+    height:auto;
+    
+    float:left;
+  }
+  .card-header-newfeed{
+    width:500px;
+    height:100px;
+   
+  }
+  .card-body-newfeed{
+    width:500px;
+    height:443px;
+    
+  }
+  .avatar-newfeed{
+    width:20%;
+    height:100%;
+    float:left;
+    border-radius: 50%;
+  }
+  .h1-newfeed{
+    margin:auto;
+    margin-left: 10px;
+    width:78%;
+    height:50%;
+    float:left;
+  }
+  .card-text-newfeed{
+    margin-left: 10px;
+    float:left;
+  }
+  .card-body-p{
+    width:100%;
+    height:20%;
+    margin-top:22px;
+    margin-left: 10px;
+  }
+  .img-body-card{
+    width:100%;
+    height:75%;
+    border-top:1px solid black;
+  }
+  .btn-stu-new{
+    position: relative;
+    float:left;
+    text-align: center;
+    width:50%;
+    height:7%;
+  }
+  .form-group-stu-new{
+    margin-top: 42px;
+    width: 100%;
+    height: auto;
+    
+}
+.form-control-stu-new{
+    width:100%;
+    height:10%;
+    border: 1px solid black;
+    border-radius: 25px;
+  }
+
+  /*profile.php*/
+  /*mainprofile*/
+.mainprofile{
+    margin:auto;
+    margin-top: 75px;
+    width:849px;
+    height:981px;
+    background: #fff;
+    color: #1c1e21;
+  }
+  /*top-profile*/
+  .top-profile{
+    margin:auto;
+    width:100%;
+    height:30%;
+  }
+  .user-name{
+    width: 300px;
+    position: relative;
+    top: -118px;
+    left: 215px;
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+}
+.card-top-profile{
+    margin:auto;
+    width:100%;
+    height:90%;
+    background-color:#F7EDED;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+  }
+  .img-top-profile{
+    margin:auto;
+    width:100%;
+    height:100%;
+  }
+  .container-profile{
+    margin:auto;
+    width:100%;
+    height:10%;
+    float:left;
+  }
+  .card-avatar{
+    margin:auto;
+    width:168px;
+    height:168px;
+    float:left;
+    position:relative;
+    left:14px;
+    top:-149px;
+  }
+  .card-avatar-img{
+    margin:auto;
+    width:86%;
+    height:100%;
+    background-size:cover;
+    border-radius: 50%;
+  }
+  .nav-info{
+    margin:0;
+    width:100%;
+    height:10%;
+    border: 1px solid black;
+  }
+  .nav-info-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F2E8E8;
+  }
+  .nav-item-li   {
+    float: left;
+    border-left: 1px solid #727572;
+  }
+  .nav-link-a{
+    display: block;
+    color: #2424F4;
+    text-align: center;
+    padding: 7px 16px;
+    text-decoration: none;
+  }
+  .nav-link-a:hover:not(.active) {
+    background-color: #9DF7A0;
+  }
+  .button-friend{
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+    
+  }
+  .btn-friend{
+    margin: auto;
+    position: relative;
+    top: -120px; 
+    left: 645px;
+    width:180px;
+    height:30px;
+    border:1px solid rgb(187, 187, 238);
+    cursor: pointer;
+  }
+  /*left-profile*/
+  .left-profile{
+    margin:auto;
+    margin-top:30px;
+    width:30%;
+    height:70%;
+    float:left;
+  }
+  .card-header-profile{
+    margin-top:10px;
+    margin-left: 4px;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .card-body-profile{
+    margin-left: 10px;
+}
+/*main-content-profile*/
+.main-content-profile{
+    margin:auto;
+    margin-top:22px;
+    width:70%;
+    height:70%;
+    float:right;
+  }
+  .form-group-profile{
+    margin:10px;
+    width: 93%;
+    height: auto;
+    background-color: #e9ebee;
+  }
+  .label-profile{
+    margin:auto;
+    width:100%;
+    float:left;
+  }
+  .form-control-profile{
+    margin:auto;
+    margin-top:2px;
+    width:99%;
+    height:80px;
+    border-radius: 12px;
+    border:1px solid black;
+    float:left;
+  }
+  .card-pro-profile{
+    margin: 35px;
+    width: 88%;
+    height:auto;
+    float:left;
+    background-color: #e9ebee;
+  }
+  /* .card-header-profile-stu{
+    width:100%;
+    height:20%;
+  } */
+  .card-header-profile-stu-img{
+    width:70px;
+    height:70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float:left;
+    border-radius: 50%;
+  }
+  /* .card-body-profile-stu{
+    width:521px;
+    height:443px; 
+  } */
+  .card-header-profile-stu-p{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 77%;
+    float:left;
+  }
+  .card-header-profile-stu-h1{
+    margin: auto;
+    margin-left: 10px;
+    width:75%;
+    height:20%;
+    font-size: 28px;
+    float:left;
+  }
+  .cardLikeComment {
+    width: 100%;
+    height: 140px;
+    margin-bottom: 10px;
+  }
+
+  .card-comment{
+    margin: 4px;
+    width: 100%;
+    height: 50px;
+    border-radius: 11px;
+    border: 1px solid;
+}
+  
+
+  .card-body-profile-stu-p{
+    width:100%;
+    height:20%;
+  }
+  .card-body-profile-stu-img{
+    width:100%;
+    height:75%;
+    border:1px solid black;
+    background-position: center center;
+  }
+  .btn-stu-profile{
+    margin-left: 15px;
+    border-radius: 25px;
+    position: relative;
+    float:left;
+    left: auto;
+    top: 10px;
+    width:45%;
+    height:30%;
+  }
+  .form-group-cmt-profile{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 40px;
+}
+.form-control-stu-profile{
+    margin-top: 20px;
+    width:85%;
+    height:10%;
+    border: 1px solid black;
+    border-radius: 25px;
+  }
+
+/*home.php*/
+.stared{
+  margin: auto;
+  margin-top: 200px;
+  text-align: center;
+}
+.btn-stared a{
+  text-decoration: none;
+  font-size: 40px;
+  color: paleturquoise;
+}
+.btn-stared{
+  background-color: rgb(83, 72, 235);
+  border: none;
+  color: rgb(212, 209, 16);
+  padding: 9px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 40px;
+  width: 346px;
+  height: 65px;
+  cursor: pointer;
+  
+}
+.stared-p{
+  margin: auto;
+  font-size: 30px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+
+/* search.php*/
+.search-name{
+  margin: auto;
+  margin-top: 114px;
+  width: 400px;
+  height: auto;
+}
+  
